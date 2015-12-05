@@ -21,6 +21,6 @@
     }
   }
 
-  return sum_of_primes;
+  console.log(sum_of_primes);
 
 }());

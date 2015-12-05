@@ -44,6 +44,6 @@
     return get_triangle_number(i);
   }
 
-  return check_divisors(500);
+  console.log(check_divisors(500));
 
 }());

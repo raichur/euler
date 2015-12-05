@@ -36,6 +36,6 @@
   largest_palindrome_array = get_palindrome_array(min_num, max_num);
   largest_palindrome = find_largest_palindrome(largest_palindrome_array);
 
-  return largest_palindrome;
+  console.log(largest_palindrome);
 
 }());

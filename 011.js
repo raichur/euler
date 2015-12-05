@@ -111,6 +111,6 @@
   find_largest_vertical_product();
   find_largest_diagonal_product();
 
-  return [largest_num, largest_product_array, largest_product_type];
+  console.log([largest_num, largest_product_array, largest_product_type]);
 
 }());

@@ -12,6 +12,6 @@
     }
   }
 
-  return sum;
+  console.log(sum);
 
 }());

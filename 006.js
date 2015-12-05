@@ -41,6 +41,6 @@
   calculate_square_of_sum();
   get_difference();
 
-  return result;
+  console.log(result);
 
 }());

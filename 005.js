@@ -17,6 +17,6 @@
     first_divisor = 1;
   }
 
-  return count;
+  console.log(count);
 
 }());

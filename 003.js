@@ -26,6 +26,6 @@
   var all_prime_factors = prime_factorize(num), largest_prime_factor = all_prime_factors[all_prime_factors.length-1];
 
 
-  return largest_prime_factor;
+  console.log(largest_prime_factor);
 
 }());
