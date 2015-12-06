@@ -213,7 +213,7 @@
 		}
 		// Handy reduce function to run for every item in the array
 		var sum = number.reduce(add, 0);
-		return sum;
+		return sum.toString().replace('.', '').substring(0, 10);
 	}
 	console.log(find_large_sum(array));
 
