@@ -22,9 +22,9 @@
 			var h = _ref[0],
 				t = _ref[1],
 				o = _ref[2],
-				and = "";
-			if(Number(b[o]) !== 0 || Number(b[o]) !== 1) {
-				and = "and";
+				and = '';
+			if(Number(o[t]) !== 0) {
+				and = 'and';
 			}
 			return [Number(h) === 0 ? '' : a[h] + 'hundred' + and, Number(o) === 0 ? b[t] : b[t] && b[t] + '' || '', a[t + o] || a[o]].join('');
 		}
@@ -58,6 +58,6 @@
 		return sum;
 	}
 
-	console.log(add_strings(1000).length-30);
+	console.log(add_strings(1000).length);
 
 }());
